@@ -1,13 +1,14 @@
+//- Variáveis
+$background: #464BC9;
+$background-submit: #6568EE;
+$input-radius: 3px;
+
 page-login {
 
   .scroll-content {
     overflow-x: hidden !important;
     overflow-y: hidden !important;
   }
-
-  $background: #464BC9;
-  $background-submit: #6568EE;
-  $input-radius: 3px;
 
   .login-content {
       background: $background;
