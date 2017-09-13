@@ -61,6 +61,10 @@ page-login {
           color: #ffffff;
           font-size: 0.8em;
         }
+
+        ion-footer button {
+          text-transform: uppercase !important;
+        }
     }
     
 }
