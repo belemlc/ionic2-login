@@ -1,0 +1,28 @@
+page-into-login {
+    $background: #02030C;
+    $background-submit: #6568EE;
+    $input-radius: 3px;
+    $bg-size: cover;
+
+    .scroll-content {
+      overflow-x: hidden !important;
+      overflow-y: hidden !important;
+    }
+
+    .container {
+      background: url('/assets/images/artisan.jpg') no-repeat center center fixed;
+      -webkit-background-size: $bg-size;
+      -moz-background-size: $bg-size;
+      -o-background-size: $bg-size;
+      background-size: $bg-size;
+      height: 100%;
+      overflow: hidden;
+      -webkit-filter: contrast(200%) grayscale(100%);
+      filter: contrast(200%) grayscale(100%);
+    }
+
+    .footer .btn-footer {
+      -webkit-filter: none !important;
+      filter: none !important;
+    }
+}
