@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
+import { LoginPage } from '../login/login';
 
 /**
  * Generated class for the IntoLoginPage page.
@@ -22,6 +23,14 @@ export class IntoLoginPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad IntoLoginPage');
+  }
+
+  private enterAccount() {
+    this.navCtrl.push(LoginPage);
+  }
+
+  private registerAccount() {
+    this.navCtrl.push(LoginPage);
   }
 
 }
