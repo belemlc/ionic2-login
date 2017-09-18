@@ -9,6 +9,7 @@ page-into-login {
     $bg-image1: 'https://static.pexels.com/photos/345135/pexels-photo-345135.jpeg';
     $bg-image2: '/assets/images/artisan.jpg';
     $bg-image3: 'https://static.pexels.com/photos/8171/pexels-photo.jpg';
+    $bg-image4: '/assets/images/reform2.jpg';
     // Fonts
     $font-brand: 'Archivo Black', sans-serif;
     $font2: 'Baloo Tammudu', cursive;
@@ -24,7 +25,7 @@ page-into-login {
     }
 
     .container {
-      background: url($bg-image2) no-repeat center center fixed;
+      background: url($bg-image4) no-repeat center center fixed;
       -webkit-background-size: $bg-size;
       -moz-background-size: $bg-size;
       -o-background-size: $bg-size;
